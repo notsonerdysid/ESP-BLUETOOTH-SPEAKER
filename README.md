@@ -21,9 +21,9 @@ Here's the schematics:
     void setup() 
     {
         auto cfg = i2s.defaultConfig();
-        cfg.pin_bck = 27;
-        cfg.pin_ws = 26;
-        cfg.pin_data = 25;
+        cfg.pin_bck = 27; //bclk
+        cfg.pin_ws = 26; //lrc
+        cfg.pin_data = 25; //din
         i2s.begin(cfg);
 
         a2dp_sink.start("COOL_ESP_SPEAKER");
