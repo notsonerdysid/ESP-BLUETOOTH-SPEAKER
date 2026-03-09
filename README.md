@@ -1,5 +1,5 @@
 ## ESP-BLUETOOTH-SPEAKER  
-I used esp's bluetooth feature with a speaker and a audio amplifer to create. DIY bluetooth speaker.   
+I used ESP's built-in bluetooth feature with a 4ohm speaker and a audio amplifer to create a DIY bluetooth speaker.   
 
 **COMPONENTS:**  
 1. ESP32
